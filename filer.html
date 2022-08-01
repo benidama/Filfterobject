@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Filter practice</title>
+    <link rel="stylesheet" href="filter.css">
+</head>
+<body>
+   
+    
+<div id="filter">
+    
+    <div id="butons">
+        <button class="btn" onclick="filterObjects('all')">showall</button>
+        <button class="btn" onclick="filterObjects('car')">cars</button>
+        <button class="btn" onclick="filterObjects('colors')">colors</button>
+        <button class="btn" onclick="filterObjects('animals')">animals</button>
+        <button class="btn" onclick="filterObjects('fruits')">fruits</button>
+    </div>
+    
+    <div class="objects">
+        <div class="box car">toyota</div>
+        <div class="box colors">red</div>
+        <div class="box animals">dog</div>
+        <div class="box fruits">mango</div>
+        <div class="box car">prado</div>
+        <div class="box colors">blue</div>
+        <div class="box animals">cat</div>
+        <div class="box fruits">tomato</div>
+        <div class="box car">V8</div>
+        <div class="box colors">aqua</div>
+        <div class="box animals">pig</div>
+        <div class="box fruits">banana</div>
+    </div>
+</div>
+
+<script src="filter.js"></script>
+</body>
+</html>
