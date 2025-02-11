@@ -13,7 +13,7 @@ body{
 }
 
 .box{
-    float: left;
+    float: center;
     line-height: 150px;
     width: 160px;
     background-color: blue;
